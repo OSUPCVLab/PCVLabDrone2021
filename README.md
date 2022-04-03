@@ -16,3 +16,14 @@ Discussions or questions are welcomed. Please contact wei.909@osu.edu
 
 :triangular_flag_on_post: **Updates**
 - Check out [QuadTree](https://medium.com/@waleoyediran/spatial-indexing-with-quadtrees-b998ae49336), a spatial indexing algorithm that improves geo-queries in a 2D-space.
+
+
+
+## Installation
+```shell
+# Anaconda create a new environment
+conda create -n UbihereDrone2021 python=3.7
+conda activate UbihereDrone2021
+
+# Install required libraries
+pip install -r requirements.txt
