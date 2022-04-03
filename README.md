@@ -6,7 +6,10 @@
 ![demo_vid](assets/loftr-github-demo.gif)
 
 ## TODO List and ETA
-- [x] Inference code and pretrained models (DS and OT) (2021-4-7)
-- [x] Code for reproducing the test-set results (2021-4-7)
-- [x] Webcam demo to reproduce the result shown in the GIF above (2021-4-13)
-- [x] Training code and training data preparation (expected 2021-6-10)
+- [x] Google satellite map download, refer to Deniz's contribution [repo](https://github.com/OSUPCVLab/UAVGeolocalization/tree/main/dataset-generation-gmaps-osm) (2021-05)
+- [x] Figure out feature matching and apply [SuperGlue](https://github.com/magicleap/SuperGluePretrainedNetwork) as the matching algorithm among google satellite map and UAV taken image (2021-07)
+- [x] UAV flight rotation invirance (2022-03)
+- [x] UAV flight scale invirance (2022-04)
+- [x] Test flight (2022-04)
+
+Discussions or questions are welcomed via [email](wei.909@osu.edu).
