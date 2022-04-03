@@ -29,7 +29,7 @@ conda activate UbihereDrone2021
 pip install -r requirements.txt
 
 # run demo
-python test.py --input=./assets/DJI_data/images/ --output=./output/images/ --range 900 900 --Init_height=140 --patience=50 --force_cpu --matching_vis --apply_GIS
+python test.py --Init_height=140 --patience=50 --force_cpu --matching_vis --apply_GIS
 ```
 
 ## Run UAV flight demos
