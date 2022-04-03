@@ -22,7 +22,7 @@ Discussions or questions are welcomed. Please contact wei.909@osu.edu
 ## Installation
 ```shell
 # Anaconda create a new environment
-conda create -n UbihereDrone2021 python=3.7
+conda create -n UbihereDrone2021 python=3.8
 conda activate UbihereDrone2021
 
 # Install required libraries
