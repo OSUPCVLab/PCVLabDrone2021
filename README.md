@@ -27,6 +27,7 @@ conda activate UbihereDrone2021
 
 # Install required libraries
 pip install -r requirements.txt
+'''
 
 ## Run UAV flight demos
 
