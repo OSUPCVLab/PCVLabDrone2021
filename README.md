@@ -31,5 +31,5 @@ pip install -r requirements.txt
 
 ## Run UAV flight demos
 
-### Dataset download
-1.
+### Google satellite maps download
+Please download the satellite maps extracted features from this [link] and save them into `./encoder' 
