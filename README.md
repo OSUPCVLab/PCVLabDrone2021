@@ -33,8 +33,13 @@ pip install -r requirements.txt
 python test.py --Init_height=140 --patience=50 --force_cpu --matching_vis --apply_GIS
 ```
 
+We provide the [download link](https://drive.google.com/drive/folders/1w7e0qmWQpv5HeU5w9utWeC43E45Xh1I6?usp=sharing) to 
+  - the test assets (~3.7GB).
+  - featurebase (~5GB).
+  - 2 pretrained models of indoor and outdoor (each ~47MB).
+
 ## Run UAV flight demos
-Our test flight is over this yellow box area.
+Our test flight is over this blue box area. Blue trajectory is our algorithm predicted UAV GPS and red is the ground truth.
 
 <img src="https://github.com/OSUPCVLab/UbihereDrone2021/blob/main/UAV%20Geolocalization/demo/map.png" width=60% height=60%>
 
