@@ -32,6 +32,13 @@ pip install -r requirements.txt
 python test.py --Init_height=140 --patience=50 --force_cpu --matching_vis --apply_GIS
 ```
 
+## Satellite map generation with google maps API
+Thanks to Deniz's [Repo](https://github.com/OSUPCVLab/UAVGeolocalization/tree/main/dataset-generation-gmaps-osm), we are able to generate target area google satellite images. This map image shows our selected area for UAV geolocalization without GPS support.
+
+
+## Feature Extractor
+
+
 ## Run UAV flight demos
 
 ### Google satellite maps download
