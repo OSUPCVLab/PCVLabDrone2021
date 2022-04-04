@@ -26,6 +26,7 @@ conda create -n UbihereDrone2021 python=3.8
 conda activate UbihereDrone2021
 
 # Install required libraries
+cd UAV Geolocalization
 pip install -r requirements.txt
 
 # run demo
