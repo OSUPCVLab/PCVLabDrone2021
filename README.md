@@ -34,7 +34,8 @@ python test.py --Init_height=140 --patience=50 --force_cpu --matching_vis --appl
 
 ## Satellite map generation with google maps API
 Thanks to Deniz's [Repo](https://github.com/OSUPCVLab/UAVGeolocalization/tree/main/dataset-generation-gmaps-osm), we are able to generate target area google satellite images. This map image shows our selected area for UAV geolocalization without GPS support.
-<img src="https://github.com/OSUPCVLab/UbihereDrone2021/blob/main/UAV%20Geolocalization/demo/map.png" width=50% height=50%>
+
+<img src="https://github.com/OSUPCVLab/UbihereDrone2021/blob/main/UAV%20Geolocalization/demo/map.png" width=60% height=60%>
 
 
 ## Feature Extractor
