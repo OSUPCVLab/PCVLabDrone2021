@@ -17,7 +17,11 @@ Discussions or questions are welcomed. Please contact wei.909@osu.edu
 - Check out [QuadTree](https://medium.com/@waleoyediran/spatial-indexing-with-quadtrees-b998ae49336), a spatial indexing algorithm that improves geo-queries in a 2D-space.
 
 ## Prerequisites
+- Satellite map generation with google maps API
+- GIS Mask generator from OpenStreetMap
+- Feature extractor
 
+Thanks to Deniz's [Repo](https://github.com/OSUPCVLab/UAVGeolocalization/tree/main/dataset-generation-gmaps-osm), we are able to generate target area google satellite images. This map image shows our selected area for UAV geolocalization without GPS support.
 
 ## Installation
 ```shell
@@ -79,14 +83,4 @@ The `--input` flag accepts a live stream URL (such as youtube live link), runnin
 python test.py --input=<URL> --output=./output/LIVE/ --range 900 900 --Init_height=140 --patience=20 --matching_vis --apply_GIS
 ```
 
-
-## Satellite map generation with google maps API
-Thanks to Deniz's [Repo](https://github.com/OSUPCVLab/UAVGeolocalization/tree/main/dataset-generation-gmaps-osm), we are able to generate target area google satellite images. This map image shows our selected area for UAV geolocalization without GPS support.
-
-
-
-
-## Feature Extractor
-
-### Google satellite maps download
-Please download the satellite maps extracted features through this [link]() and save them into `./encoder`.
+## Additional Notes
