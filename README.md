@@ -11,8 +11,6 @@
 - [x] UAV flight scale invirance (2022-04)
 - [x] OSU campus flight test using [Litchi](https://flylitchi.com/hub)(2022-04)
 
-Discussions or questions are welcomed. Please contact wei.909@osu.edu
-
 :triangular_flag_on_post: **Updates**
 - Check out [QuadTree](https://medium.com/@waleoyediran/spatial-indexing-with-quadtrees-b998ae49336), a spatial indexing algorithm that improves geo-queries in a 2D-space.
 
@@ -84,3 +82,4 @@ python test.py --input=<URL> --output=./output/LIVE/ --range 900 900 --Init_heig
 ```
 
 ## Additional Notes
+- Discussions or questions are welcomed. Please contact wei.909@osu.edu
