@@ -43,8 +43,8 @@ We use superglue as an advanced feature matching algorithm. However, due to its 
 ## UAV test flight
 Our test flight is over this blue box area, covering abundant contexture including road, buildings, greens, river, urban area and recreational facilities. Blue trajectory is our algorithm predicted UAV GPS and red is the ground truth.
 
-<img src="https://github.com/OSUPCVLab/UbihereDrone2021/blob/main/UAV%20Geolocalization/demo/map.png" width=60% height=60%>
-<img src="https://github.com/OSUPCVLab/UbihereDrone2021/blob/main/UAV%20Geolocalization/demo/demo result.png" width=60% height=60%>
+<img src="https://github.com/OSUPCVLab/UbihereDrone2021/blob/main/UAV%20Geolocalization/demo/map.png" width=45% height=45%>
+<img src="https://github.com/OSUPCVLab/UbihereDrone2021/blob/main/UAV%20Geolocalization/demo/demo result.png" width=45% height=45%>
 
 ### Run the demo on a dictionary of images
 The `--input` flag accepts a path to a dictionary containing a batch of UAV taken images in time squeence. To run the demo, make sure the test images are saved into `./assets/images/` folder.
