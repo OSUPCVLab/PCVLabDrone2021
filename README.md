@@ -38,7 +38,7 @@ We provide the [download link](https://drive.google.com/drive/folders/1w7e0qmWQp
   - featurebase (~5GB).
   - 2 pretrained models of indoor and outdoor (each ~47MB).
 
-We use superglue as an advanced feature matching algorithm. However, due to its strict LICENSE requirements, we recommend downloading its pretrained models [here](https://github.com/magicleap/SuperGluePretrainedNetwork/tree/master/models/weights).
+We use superglue as an advanced feature matching algorithm. However, due to its strict LICENSE requirements, we recommend downloading its pretrained models [here](https://github.com/magicleap/SuperGluePretrainedNetwork/tree/master/models/weights) even though they are also avaiable through out provided [download link](https://drive.google.com/drive/folders/1w7e0qmWQpv5HeU5w9utWeC43E45Xh1I6?usp=sharing).
 
 ## Run UAV flight demos
 Our test flight is over this blue box area. Blue trajectory is our algorithm predicted UAV GPS and red is the ground truth.
