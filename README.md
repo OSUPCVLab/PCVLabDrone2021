@@ -44,6 +44,15 @@ Our test flight is over this blue box area. Blue trajectory is our algorithm pre
 
 <img src="https://github.com/OSUPCVLab/UbihereDrone2021/blob/main/UAV%20Geolocalization/demo/map.png" width=60% height=60%>
 
+### Run the demo on a dictionary of images
+The `--input` flag accepts a path to a dictionary containing a batch of UAV taken images in time squeence. To run the demo, make sure the test images are saved into `./assets/images/` folder.
+```shell
+# Running on the CPU
+python test.py --input=./assets/images/ --output=./output/images/ --range 900 900 --Init_height=140 --patience=20 --matching_vis --apply_GIS --force_cpu
+
+# Running on the GPU
+python test.py --input=./assets/images/ --output=./output/images/ --range 900 900 --Init_height=140 --patience=20 --matching_vis --apply_GIS
+```
 
 
 ## Satellite map generation with google maps API
