@@ -65,6 +65,13 @@ python test.py --input=./assets/videos/demo.mp4 --output=./output/videos/ --rang
 python test.py --input=./assets/videos/demo.mp4 --output=./output/videos/ --range 900 900 --Init_height=140 --patience=20 --matching_vis --apply_GIS
 ```
 
+### Run the demo on a LIVE stream
+The `--input` flag accepts a live stream URL (such as youtube live link), running on GPU as faster processing speed is required somehow.
+```shell
+# Running on the GPU
+python test.py --input=<URL> --output=./output/LIVE/ --range 900 900 --Init_height=140 --patience=20 --matching_vis --apply_GIS
+```
+
 
 ## Satellite map generation with google maps API
 Thanks to Deniz's [Repo](https://github.com/OSUPCVLab/UAVGeolocalization/tree/main/dataset-generation-gmaps-osm), we are able to generate target area google satellite images. This map image shows our selected area for UAV geolocalization without GPS support.
