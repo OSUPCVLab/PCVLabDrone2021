@@ -41,7 +41,8 @@ We provide the [download link](https://drive.google.com/drive/folders/1w7e0qmWQp
 We use superglue as an advanced feature matching algorithm. However, due to its strict LICENSE requirements, we recommend downloading its pretrained models [here](https://github.com/magicleap/SuperGluePretrainedNetwork/tree/master/models/weights).
 
 ## UAV test flight
-Our test flight is over this blue box area, covering abundant contexture including road, buildings, greens, river, urban area and recreational facilities. Blue trajectory is our algorithm predicted UAV GPS and red is the ground truth.
+Our test flight is over the blue box area as the left image shows, which covers abundant contexture including road, buildings, greens, river, urban area and recreational facilities. The test assets include demo images and video taken by UAV around urban environment. Feel free to download them and run our demo.
+The right image contains blue and red trajectory, which are UAV inferenced GPS and ground truth respectitively.
 
 <p float="left">
   <img src="https://github.com/OSUPCVLab/UbihereDrone2021/blob/main/UAV%20Geolocalization/demo/map.png" width=45% height=45% />
