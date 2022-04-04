@@ -45,11 +45,8 @@ Our test flight is over this blue box area, covering abundant contexture includi
 
 <p float="left">
   <img src="https://github.com/OSUPCVLab/UbihereDrone2021/blob/main/UAV%20Geolocalization/demo/map.png" width=45% height=45% />
-  <img src="https://github.com/OSUPCVLab/UbihereDrone2021/blob/main/UAV%20Geolocalization/demo/demo result.png" width=45% height=45% /> 
+  <img src="https://github.com/OSUPCVLab/UbihereDrone2021/blob/main/UAV%20Geolocalization/demo/demo result.png" width=50% height=50% /> 
 </p>
-
-<img src="https://github.com/OSUPCVLab/UbihereDrone2021/blob/main/UAV%20Geolocalization/demo/map.png" width=45% height=45%>
-<img src="https://github.com/OSUPCVLab/UbihereDrone2021/blob/main/UAV%20Geolocalization/demo/demo result.png" width=45% height=45%>
 
 ### Run the demo on a dictionary of images
 The `--input` flag accepts a path to a dictionary containing a batch of UAV taken images in time squeence. To run the demo, make sure the test images are saved into `./assets/images/` folder.
