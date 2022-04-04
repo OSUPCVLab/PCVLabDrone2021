@@ -61,9 +61,8 @@ python test.py --input=./assets/images/ --output=./output/images/ --range 900 90
 - Use `--Init_height` to preset UAV starting flight height, which is required to be >= 110 meters (default: 140)
 - Use `--Orien` to preset UAV initial heading direction, which is required if not North-faced initially (default: 0)
 - Use `--apply_GIS` to apply semantic building labeling extracted from OpenStreetMap to achieve more accurate height estimation and GPS prediction (default: False). For more details, please refer to [`GIS mask generator`]()
-```sh
-Above command lines share the same parameters.
-```
+
+**Above command lines share the same parameters.**
 
 ### Run the demo on a dictionary of video
 The `--input` flag accepts a path to a UAV taken video. To run the demo, make sure the test video are saved into `./assets/videos/` folder.
