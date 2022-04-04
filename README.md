@@ -28,9 +28,6 @@ conda activate UbihereDrone2021
 # Install required libraries
 cd UAV Geolocalization
 pip install -r requirements.txt
-
-# run demo
-python test.py --Init_height=140 --patience=50 --force_cpu --matching_vis --apply_GIS
 ```
 
 We provide the [download link](https://drive.google.com/drive/folders/1w7e0qmWQpv5HeU5w9utWeC43E45Xh1I6?usp=sharing) to 
