@@ -45,7 +45,7 @@ Our test flight is over this blue box area, covering abundant contexture includi
 
 <p float="left">
   <img src="https://github.com/OSUPCVLab/UbihereDrone2021/blob/main/UAV%20Geolocalization/demo/map.png" width=45% height=45% />
-  <img src="https://github.com/OSUPCVLab/UbihereDrone2021/blob/main/UAV%20Geolocalization/demo/demo result.png" width=52% height=52% /> 
+  <img src="https://github.com/OSUPCVLab/UbihereDrone2021/blob/main/UAV%20Geolocalization/demo/demo result.png" width=52.5% height=52.5% /> 
 </p>
 
 ### Run the demo on a dictionary of images
