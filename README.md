@@ -55,14 +55,11 @@ python test.py --input=./assets/images/ --output=./output/images/ --range 900 90
 python test.py --input=./assets/images/ --output=./output/images/ --range 900 900 --Init_height=140 --patience=20 --matching_vis --apply_GIS
 ```
 
-### Necessary command line parameters
 - Use `--range` to change google satellite image size (default: 900x900)
 - Use `--Init_GPS` to preset UAV starting points, required for each flight
 - Use `--Init_height` to preset UAV starting flight height, which is required to be >= 110 meters (default: 140)
 - Use `--Orien` to preset UAV initial heading direction, which is required if not North-faced initially (default: 0)
-- Use `--apply_GIS` to apply semantic building labeling extracted from OpenStreetMap to achieve more accurate height estimation and GPS prediction (default: False). For more details, please refer to [`GIS mask generator`]()
-
-**Above command lines share the same parameters.**
+- Use `--apply_GIS` to apply semantic building labeling extracted from OpenStreetMap to achieve more accurate height estimation and GPS prediction (default: False). For more details, please refer to [`GIS mask generator`]().
 
 ### Run the demo on a dictionary of video
 The `--input` flag accepts a path to a UAV taken video. To run the demo, make sure the test video are saved into `./assets/videos/` folder.
