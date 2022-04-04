@@ -4,8 +4,6 @@
 
 ![demo_vid](https://github.com/OSUPCVLab/UbihereDrone2021/blob/main/UAV%20Geolocalization/demo/Webp.net-gifmaker.gif)
 
-## Prerequisites
-
 ## TODO List and ETA
 - [x] Google satellite map download, please refer to Deniz's contributed [repo](https://github.com/OSUPCVLab/UAVGeolocalization/tree/main/dataset-generation-gmaps-osm) (2021-05)
 - [x] Figure out feature matching and apply [SuperGlue](https://github.com/magicleap/SuperGluePretrainedNetwork) as the matching algorithm among google satellite map and UAV taken image (2021-07)
@@ -18,6 +16,7 @@ Discussions or questions are welcomed. Please contact wei.909@osu.edu
 :triangular_flag_on_post: **Updates**
 - Check out [QuadTree](https://medium.com/@waleoyediran/spatial-indexing-with-quadtrees-b998ae49336), a spatial indexing algorithm that improves geo-queries in a 2D-space.
 
+## Prerequisites
 
 
 ## Installation
