@@ -9,7 +9,7 @@
 - [x] Figure out feature matching and apply [SuperGlue](https://github.com/magicleap/SuperGluePretrainedNetwork) as the matching algorithm among google satellite map and UAV taken image (2021-07)
 - [x] UAV flight rotation invirance (2022-03)
 - [x] UAV flight scale invirance (2022-04)
-- [x] OSU campus flight test using [Litchi](https://flylitchi.com/hub)(2022-04)
+- [x] OSU campus flight test using [Litchi] (https://flylitchi.com/hub)(2022-04)
 
 :triangular_flag_on_post: **Updates**
 - Check out [QuadTree](https://medium.com/@waleoyediran/spatial-indexing-with-quadtrees-b998ae49336), a spatial indexing algorithm that improves geo-queries in a 2D-space.
