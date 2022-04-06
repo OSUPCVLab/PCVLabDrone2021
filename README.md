@@ -27,11 +27,11 @@ Thanks to Deniz's [Repo](https://github.com/OSUPCVLab/UAVGeolocalization/tree/ma
 conda create -n UbihereDrone2021 python=3.8
 conda activate UbihereDrone2021
 
-# Install required libraries
+# Install required libraries, pytorch needs to be installed independently
 cd UAV Geolocalization
 pip install -r requirements.txt
 
-# Install pytorch 1.7.1 GPU version if cuda avaiable
+# pytorch 1.7.1 GPU version if cuda avaiable
 conda install pytorch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2 cudatoolkit=10.2 -c pytorch
 # Install pytorch 1.7.1 if CPU only
 conda install pytorch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2 cpuonly -c pytorch
