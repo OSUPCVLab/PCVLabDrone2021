@@ -16,7 +16,6 @@ from models.matching import Matching
 from models.utils.utils import AverageTimer, VideoStreamer, frame2tensor, remove_kpts_on_building, segment_keypoints, update_last_data
 from models.utils.utils_loc import generate_kml, retrieve_init_pixposition, update_current_GPS, UAV_loc_by_pix_PAffine
 from models.utils.utils_plot import make_localization_plot
-from models.utils.utils_geometry import scale_intrinsics, estimate_pose, rotationMatrixToEulerAngles
 
 torch.set_grad_enabled(False)
 
