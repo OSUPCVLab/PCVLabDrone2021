@@ -31,8 +31,10 @@ conda activate UbihereDrone2021
 cd UAV Geolocalization
 pip install -r requirements.txt
 
-# If GPU available, please run this additional command
+# Install pytorch 1.7.1 GPU version if cuda avaiable
 conda install pytorch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2 cudatoolkit=10.2 -c pytorch
+# Install pytorch 1.7.1 if CPU only
+conda install pytorch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2 cpuonly -c pytorch
 ```
 
 We provide the [download link](https://drive.google.com/drive/folders/1w7e0qmWQpv5HeU5w9utWeC43E45Xh1I6?usp=sharing) to 
