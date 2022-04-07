@@ -12,7 +12,7 @@ conda activate mapgenerator2021
 cd Satellite Map Generation
 pip install -r requirements.txt
 ```
-- Download the latest or suitable [version for](https://chromedriver.chromium.org/downloads) Chrome
+- Download the latest or suitable [version](https://chromedriver.chromium.org/downloads) for Chrome
 
 We use superglue as an advanced feature matching algorithm. However, due to its strict LICENSE requirements, we recommend downloading its pretrained models [here](https://github.com/magicleap/SuperGluePretrainedNetwork/tree/master/models/weights).
 
