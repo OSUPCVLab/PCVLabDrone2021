@@ -16,7 +16,7 @@
 
 ## Prerequisites
 - [Satellite Map Generation]()
-- [GIS Mask from OpenStreetMap]()
+- [GIS Mask from OpenStreetMap](https://github.com/OSUPCVLab/UbihereDrone2021/tree/main/GISMaskfromOSM)
 - Feature Extractor
 
 ## Geolocalization
