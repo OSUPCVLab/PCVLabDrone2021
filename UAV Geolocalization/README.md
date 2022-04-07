@@ -1,5 +1,5 @@
 
-## Installation
+## Installation (Windows)
 ```shell
 # Anaconda create a new environment
 conda create -n UbihereDrone2021 python=3.8
