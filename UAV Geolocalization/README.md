@@ -22,6 +22,8 @@ We provide the [download link](https://drive.google.com/drive/folders/1w7e0qmWQp
 
 We use superglue as an advanced feature matching algorithm. However, due to its strict LICENSE requirements, we recommend downloading its pretrained models [here](https://github.com/magicleap/SuperGluePretrainedNetwork/tree/master/models/weights).
 
+## Feature Extraction offline
+
 ## UAV test flight
 Our test flight is over the blue box area as the left image shows, which covers abundant contexture including road, buildings, greens, river, urban area and recreational facilities. The test assets include demo images and video taken by UAV around urban environment. Feel free to download them and run our demo.
 The right image contains blue and red trajectory, which are UAV inferenced GPS and ground truth respectitively.
