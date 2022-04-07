@@ -24,4 +24,4 @@ See [UAV Geolocalization](https://github.com/OSUPCVLab/UbihereDrone2021/tree/mai
 
 ## Additional Notes
 - Discussions or questions are welcomed. Please contact wei.909@osu.edu
-- Our test flight is done around Ohio State University main campus. If you want test around your target area, please recollect satellite image, GIS mask and rebuild featurebase.
+- Our test flight is done around Ohio State University main campus. If you want test around other place, please recollect satellite image, GIS mask and rebuild featurebase.
