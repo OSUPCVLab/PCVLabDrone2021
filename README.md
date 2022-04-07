@@ -1,6 +1,6 @@
 # UbihereDrone2021
 ## Project Description
-### We launched this project to achieve UAV GeoLocalization in GPS-denied environment (GPS weak, unstable or unavailable). Our methodology includes three parts. First, generate satellite maps and its corresponding GIS mask from [GoogleMap](https://www.google.com/maps/@40.0014409,-83.0193795,1131m/data=!3m1!1e3) and [OpenStreetMap](https://www.openstreetmap.org/#map=16/40.0001/-83.0215) respectively.
+### We launched this project to achieve UAV GeoLocalization in GPS-denied environment (GPS weak, unstable or unavailable).
 
 ![demo_vid](https://github.com/OSUPCVLab/UbihereDrone2021/blob/main/UAV%20Geolocalization/demo/Webp.net-gifmaker.gif)
 
@@ -15,6 +15,7 @@
 - Check out [QuadTree](https://medium.com/@waleoyediran/spatial-indexing-with-quadtrees-b998ae49336), a spatial indexing algorithm that improves geo-queries in a 2D-space.
 
 ## Prerequisites
+This is a vision-based project. The only data source comes from the UAV embedded camera for geolocalization. Our method is to match features from UAV taken images with other data sources with similar contexture information such as [GoogleSatelliteMap](https://www.google.com/maps/@40.0014409,-83.0193795,1131m/data=!3m1!1e3) and [OpenStreetMap](https://www.openstreetmap.org/#map=16/40.0001/-83.0215). Here are three dependent sub-repos helping generating satellite maps and extracting map features offine.
 - [Satellite Map Generation](https://github.com/OSUPCVLab/UbihereDrone2021/tree/main/Satellite%20Map%20Generation)
 - [GIS Mask from OpenStreetMap](https://github.com/OSUPCVLab/UbihereDrone2021/tree/main/GISMaskfromOSM)
 - Feature Extractor
