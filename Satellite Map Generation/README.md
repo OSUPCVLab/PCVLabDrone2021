@@ -12,11 +12,7 @@ conda activate mapgenerator2021
 cd Satellite Map Generation
 pip install -r requirements.txt
 ```
-
-We provide the [download link](https://drive.google.com/drive/folders/1w7e0qmWQpv5HeU5w9utWeC43E45Xh1I6?usp=sharing) to 
-  - the test assets (~3.7GB).
-  - featurebase (~5GB).
-  - 2 pretrained models of indoor and outdoor (each ~47MB).
+- Download the latest or suitable [version for](https://chromedriver.chromium.org/downloads) Chrome
 
 We use superglue as an advanced feature matching algorithm. However, due to its strict LICENSE requirements, we recommend downloading its pretrained models [here](https://github.com/magicleap/SuperGluePretrainedNetwork/tree/master/models/weights).
 
