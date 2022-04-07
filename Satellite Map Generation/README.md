@@ -16,4 +16,4 @@ pip install -r requirements.txt
 
 We use superglue as an advanced feature matching algorithm. However, due to its strict LICENSE requirements, we recommend downloading its pretrained models [here](https://github.com/magicleap/SuperGluePretrainedNetwork/tree/master/models/weights).
 
-## Modify [`main.py`]
+## Modify `main.py`
