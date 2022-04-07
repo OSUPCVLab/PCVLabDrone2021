@@ -21,3 +21,7 @@ This is a vision-based project. We use images taken by UAV embedded camera as th
 
 ## Main part
 See [UAV Geolocalization](https://github.com/OSUPCVLab/UbihereDrone2021/tree/main/UAV%20Geolocalization) for more details.
+
+## Additional Notes
+- Discussions or questions are welcomed. Please contact wei.909@osu.edu
+- Our test flight is done around Ohio State University main campus. If you want test around your target area, please recollect satellite image, GIS mask and rebuild featurebase.
