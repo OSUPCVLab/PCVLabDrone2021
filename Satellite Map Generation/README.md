@@ -17,3 +17,13 @@ pip install -r requirements.txt
 We use superglue as an advanced feature matching algorithm. However, due to its strict LICENSE requirements, we recommend downloading its pretrained models [here](https://github.com/magicleap/SuperGluePretrainedNetwork/tree/master/models/weights).
 
 ## Modify `main.py`
+<details>
+  <summary>[code snippets]</summary>
+
+  ```python
+  from src.loftr import LoFTR, default_cfg
+
+  # Initialize LoFTR
+  matcher = LoFTR(config=default_cfg)
+  matcher.load_state_dict(torch.load("weights/indoor_ds.ckpt")['state_dict'])
+  matcher = matcher.eval().cuda()
