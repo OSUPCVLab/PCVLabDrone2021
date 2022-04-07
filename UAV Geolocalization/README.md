@@ -65,6 +65,3 @@ The `--input` flag accepts a live stream URL (such as youtube live link), runnin
 # Running on the GPU
 python test.py --input=<URL> --output=./output/LIVE/ --range 900 900 --Init_height=140 --patience=20 --matching_vis --apply_GIS
 ```
-
-## Additional Notes
-- Discussions or questions are welcomed. Please contact wei.909@osu.edu
