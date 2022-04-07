@@ -1,6 +1,6 @@
 # UbihereDrone2021
 ## Project Description
-### We launched this project to achieve UAV GeoLocalization in GPS-denied environment (GPS weak, unstable or unavailable).
+### We launched this project to achieve UAV GeoLocalization in GPS-denied environment (GPS weak, unstable or unavailable). Our methodology includes three parts. First, generate satellite maps and its corresponding GIS mask from [GoogleMap](https://www.google.com/maps/@40.0014409,-83.0193795,1131m/data=!3m1!1e3) and [OpenStreetMap](https://www.openstreetmap.org/#map=16/40.0001/-83.0215) respectively.
 
 ![demo_vid](https://github.com/OSUPCVLab/UbihereDrone2021/blob/main/UAV%20Geolocalization/demo/Webp.net-gifmaker.gif)
 
@@ -20,4 +20,4 @@
 - Feature Extractor
 
 ## Main part
-See [UAV Geolocalization]() for more details.
+See [UAV Geolocalization](https://github.com/OSUPCVLab/UbihereDrone2021/tree/main/UAV%20Geolocalization) for more details.
