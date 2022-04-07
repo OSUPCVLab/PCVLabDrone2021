@@ -19,5 +19,5 @@
 - [GIS Mask from OpenStreetMap](https://github.com/OSUPCVLab/UbihereDrone2021/tree/main/GISMaskfromOSM)
 - Feature Extractor
 
-## Geolocalization
-After you go through those prerequisites, please refer to project main part.
+## Main part
+See [UAV Geolocalization]() for more details.
