@@ -60,7 +60,7 @@ python test.py --input=./assets/videos/demo.mp4 --output=./output/videos/ --rang
 ```
 
 ### Run the demo on a LIVE stream
-The `--input` flag accepts a live stream URL (such as youtube live link), running on GPU as faster processing speed is required somehow.
+The `--input` flag accepts a live stream URL (such as youtube live link), GPU is required somehow for faster processing speed.
 ```shell
 # Running on the GPU
 python test.py --input=<URL> --output=./output/LIVE/ --range 900 900 --Init_height=140 --patience=20 --matching_vis --apply_GIS
