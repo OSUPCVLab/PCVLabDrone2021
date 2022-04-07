@@ -15,7 +15,7 @@
 - Check out [QuadTree](https://medium.com/@waleoyediran/spatial-indexing-with-quadtrees-b998ae49336), a spatial indexing algorithm that improves geo-queries in a 2D-space.
 
 ## Prerequisites
-This is a vision-based project. We use images taken by UAV embedded camera as the only data source for geolocalization. Our achieving way is to match features from UAV taken images with other data sources with similar contexture information such as [GoogleSatelliteMap](https://www.google.com/maps/@40.0014409,-83.0193795,1131m/data=!3m1!1e3) and [OpenStreetMap](https://www.openstreetmap.org/#map=16/40.0001/-83.0215). Here are three dependent sub-repos helping generating satellite maps and extracting map features offine.
+This is a vision-based project. We use images taken by UAV embedded camera as the only data source for geolocalization. Our completing method is to match features from UAV taken images with other data sources with similar contexture information such as [GoogleSatelliteMap](https://www.google.com/maps/@40.0014409,-83.0193795,1131m/data=!3m1!1e3) and [OpenStreetMap](https://www.openstreetmap.org/#map=16/40.0001/-83.0215). Here are three dependent sub-repos helping generating satellite maps and extracting map features offine.
 - [Satellite Map Generation](https://github.com/OSUPCVLab/UbihereDrone2021/tree/main/Satellite%20Map%20Generation)
 - [GIS Mask from OpenStreetMap](https://github.com/OSUPCVLab/UbihereDrone2021/tree/main/GISMaskfromOSM)
 - Feature Extractor
