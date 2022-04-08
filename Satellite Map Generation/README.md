@@ -16,9 +16,6 @@ pip install -r requirements.txt
 - Download the latest or suitable [version](https://chromedriver.chromium.org/downloads) for Chrome
 
 ## Modify `main.py`
-<details>
-  <summary>[code snippets]</summary>
-
   ```python
 if __name__=='__main__':
     # Example: 5x5 -> 25 images
@@ -39,6 +36,3 @@ if __name__=='__main__':
 - `col` Column count in the way to the east
  
  For generating our used satellite image map, which is 2.3km^2, we set up row and col to be 30 and 17 respectively.
-</details>
-
-## Notes
