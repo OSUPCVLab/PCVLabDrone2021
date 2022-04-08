@@ -38,4 +38,5 @@ if __name__=='__main__':
 - `Lat, Long` latitude and longitude of the center of first screenshot image (1280x720)
 - `row` Row count in the way to the south  
 - `col` Column count in the way to the east
+ 
  For generating our used satellite image map, which is 2.3km^2, we set up row and col to be 30 and 17 respectively.
