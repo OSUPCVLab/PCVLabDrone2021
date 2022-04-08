@@ -12,6 +12,7 @@ conda activate mapgenerator2021
 cd Satellite Map Generation
 pip install -r requirements.txt
 ```
+- The Chromedriver inside the repo is for **Windows**. The version: _ChromeDriver 90.0.4430.24_
 - Download the latest or suitable [version](https://chromedriver.chromium.org/downloads) for Chrome
 
 ## Modify `main.py`
