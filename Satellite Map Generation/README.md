@@ -21,9 +21,15 @@ We use superglue as an advanced feature matching algorithm. However, due to its 
   <summary>[code snippets]</summary>
 
   ```python
-  from src.loftr import LoFTR, default_cfg
+if __name__=='__main__':
+    # Example: 5x5 -> 25 images
+    Lat, Long = 40.01835966827935, -83.03297664244631  # For 30*17 Larger Map, 2.3km^2
 
-  # Initialize LoFTR
-  matcher = LoFTR(config=default_cfg)
-  matcher.load_state_dict(torch.load("weights/indoor_ds.ckpt")['state_dict'])
-  matcher = matcher.eval().cuda()
+    take_screenshot(
+        lat=Lat,  # Top left corner latitude
+        long=Long,
+        row=30,  # 5 rows
+        col=17,  # 5 columns
+        file_name="image",  # Map image: "image-map-{number}.png"
+        number=0
+    )
