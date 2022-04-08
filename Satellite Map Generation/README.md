@@ -33,3 +33,5 @@ if __name__=='__main__':
         file_name="image",  # Map image: "image-map-{number}.png"
         number=0
     )
+### Parameters
+  `Lat, Long` latitude and longitude of the center of first screenshot image
