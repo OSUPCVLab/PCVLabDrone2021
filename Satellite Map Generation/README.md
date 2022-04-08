@@ -35,4 +35,4 @@ if __name__=='__main__':
 - `row` Row count in the way to the south  
 - `col` Column count in the way to the east
  
- For generating our used satellite image map, which is 2.3km^2, we set up row and col to be 30 and 17 respectively.
+ For generating our used satellite image map, which is 2.3km^2, we set up row and col to be 30 and 17 respectively. If you need to generate your target satellite image area, please set up a new `Lat, Long` and refer to this ratio.
