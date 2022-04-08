@@ -11,6 +11,9 @@ conda activate mapgenerator2021
 # Install required libraries, pytorch needs to be installed independently
 cd Satellite Map Generation
 pip install -r requirements.txt
+
+# Install Jupyter Notebook (optional)
+pip install jupyter
 ```
 - The Chromedriver inside the repo is for **Windows**. The version: _ChromeDriver 100.0.4896.60_
 - Download the latest or suitable [version](https://chromedriver.chromium.org/downloads) for Chrome
