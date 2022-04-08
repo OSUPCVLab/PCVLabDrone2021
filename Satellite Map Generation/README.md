@@ -16,7 +16,7 @@ pip install -r requirements.txt
 - Download the latest or suitable [version](https://chromedriver.chromium.org/downloads) for Chrome
 
 ## Modify `main.py`
-  ```python
+```python
 if __name__=='__main__':
     # Example: 5x5 -> 25 images
     Lat, Long = 40.01835966827935, -83.03297664244631  # For 30*17 Larger Map, 2.3km^2
@@ -29,7 +29,7 @@ if __name__=='__main__':
         file_name="image",  # Map image: "image-map-{number}.png"
         number=0
     )
-  ```
+```
 ### Parameters
 - `Lat, Long` latitude and longitude of the center of first screenshot image (1280x720)
 - `row` Row count in the way to the south  
