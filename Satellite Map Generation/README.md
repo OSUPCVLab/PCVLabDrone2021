@@ -36,3 +36,7 @@ if __name__=='__main__':
 - `col` Column count in the way to the east
  
  For generating our used satellite image map, which is 2.3km^2, we set up row and col to be 30 and 17 respectively. If you need to generate your target satellite image area, please set up a new `Lat, Long` and refer to this ratio.
+
+## Notes
+- Assume the GPS of first image center is Lat_1, Long_1
+- You can still use satellite image maps from other sources or taken from UAV by yourself. Make sure you know the area Lat or Long of four edges.
