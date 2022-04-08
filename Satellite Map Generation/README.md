@@ -14,8 +14,6 @@ pip install -r requirements.txt
 ```
 - Download the latest or suitable [version](https://chromedriver.chromium.org/downloads) for Chrome
 
-We use superglue as an advanced feature matching algorithm. However, due to its strict LICENSE requirements, we recommend downloading its pretrained models [here](https://github.com/magicleap/SuperGluePretrainedNetwork/tree/master/models/weights).
-
 ## Modify `main.py`
 <details>
   <summary>[code snippets]</summary>
@@ -40,3 +38,5 @@ if __name__=='__main__':
 - `col` Column count in the way to the east
  
  For generating our used satellite image map, which is 2.3km^2, we set up row and col to be 30 and 17 respectively.
+
+## Notes
