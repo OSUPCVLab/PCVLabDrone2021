@@ -35,4 +35,7 @@ if __name__=='__main__':
     )
   ```
 ### Parameters
-  `Lat, Long` latitude and longitude of the center of first screenshot image
+  `Lat, Long` latitude and longitude of the center of first screenshot image (1280x720)
+  `row` Row count in the way to the south
+  `col` Column count in the way to the east
+  
