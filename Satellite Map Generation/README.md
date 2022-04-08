@@ -39,5 +39,5 @@ if __name__=='__main__':
 
 ## Notes
 - Estimating GPS could be viewed as a distance measurement problem. Therefore, after collecting the satellite image maps, we need to calculate ground sample distance ([GSD](https://en.wikipedia.org/wiki/Ground_sample_distance)). Please refer to `MapAnalysis.ipny` for details.
-- Assume the GPS of first image center is Lat_1, Long_1
+- Area top-left GPS coordinates will be input as `
 - You can still use satellite image maps from other sources or taken from UAV by yourself. Make sure you know the area Lat or Long of four edges.
