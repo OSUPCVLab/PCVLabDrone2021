@@ -35,8 +35,8 @@ if __name__=='__main__':
 ```
 ### Parameters
 - `Lat, Long` latitude and longitude of the center of first screenshot image (1280x720)
-- `row` Row count in the way to the south  
-- `col` Column count in the way to the east
+- `row` Row count along the way to south  
+- `col` Column count along the way to east
  
  For generating our used satellite image map, which is 2.3km^2, we set up row and col to be 30 and 17 respectively. If you need to generate your target satellite image area, please set up a new `Lat, Long` and refer to this ratio.
 
