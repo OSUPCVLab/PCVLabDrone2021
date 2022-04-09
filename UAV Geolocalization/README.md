@@ -60,7 +60,7 @@ python test.py --input=./assets/videos/demo.mp4 --output=./output/videos/ --rang
 ```
 
 ### Run the demo on a LIVE stream
-The `--input` flag accepts a live stream URL (such as youtube live link), GPU is required somehow for faster processing speed.
+The `--input` flag accepts a live stream URL (such as youtube live link). Please check [CamGear](https://abhitronix.github.io/vidgear/v0.2.5-stable/gears/camgear/overview/) for more details. GPU is required somehow to achieve real-time flight test.
 ```shell
 # Running on the GPU
 python test.py --input=<URL> --output=./output/LIVE/ --range 900 900 --Init_height=140 --patience=20 --matching_vis --apply_GIS
