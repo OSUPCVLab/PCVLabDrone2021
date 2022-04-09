@@ -43,4 +43,4 @@ if __name__=='__main__':
 ## Notes
 - Estimating GPS could be viewed as a distance measurement problem. Therefore, after collecting the satellite image maps, we need to calculate ground sample distance ([GSD](https://en.wikipedia.org/wiki/Ground_sample_distance)). Please refer to `MapAnalysis.ipynb` for details.
 - Target rea top-left GPS coordinates are referred to as `--satmap_init_gps` in the [test.py](https://github.com/OSUPCVLab/UbihereDrone2021/blob/main/UAV%20Geolocalization/test.py).
-- You can still use satellite image maps from other sources or taken from UAV by yourself. Make sure you calculate GSD and acquire your collected area north, south, east and west GPS coordinates.
+- You can also replace google satellite image maps with other sources containing same contexture. Remember to calculate GSD and acquire your collected area north, south, east and west GPS coordinates.
