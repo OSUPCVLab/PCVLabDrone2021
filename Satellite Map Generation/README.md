@@ -52,3 +52,4 @@ Below is a generated satellite map example located within OSU campus. `row` and 
 - Estimating GPS could be viewed as a distance measurement problem. Therefore, after collecting the satellite image maps, we need to calculate ground sample distance ([GSD](https://en.wikipedia.org/wiki/Ground_sample_distance)). Please refer to `MapAnalysis.ipynb` for details.
 - Target rea top-left GPS coordinates are referred to as `--satmap_init_gps` in the [test.py](https://github.com/OSUPCVLab/UbihereDrone2021/blob/main/UAV%20Geolocalization/test.py).
 - You can also replace google satellite image maps with other sources but having similart texture. Remember to calculate GSD and acquire your collected area north, south, east and west GPS coordinates.
+- Please copy satellite images from [./datasets/satellite imgs]() into [a]()
