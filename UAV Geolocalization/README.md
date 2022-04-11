@@ -37,7 +37,7 @@ We use superglue as an advanced feature matching algorithm. However, due to its 
 ## Feature Extraction offline
 [Satellite map generator](https://github.com/OSUPCVLab/UbihereDrone2021/tree/main/Satellite%20Map%20Generation) could generate target area satellite map combined with row by col patches with the size of 1280x720. We extract features from satellite map patch by patch and concatenate them in the same order of row by column. Here is the generated target area example feature map. Red points on the are extracted features containing postion and descriptor saved as `satmap_kpts.npz` into `featurebase` folder.
 
-<img src="https://github.com/OSUPCVLab/UbihereDrone2021/blob/main/UAV%20Geolocalization/demo/map.png" width=45% height=45% />
+<img src="https://github.com/OSUPCVLab/UbihereDrone2021/blob/main/UAV%20Geolocalization/demo/feature_vis.png" width=45% height=45% />
 
 ### Run feature extractor offline
 ```shell
