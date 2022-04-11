@@ -37,7 +37,7 @@ if __name__=='__main__':
 - `row` Row count along the way to south  
 - `col` Column count along the way to east
  
- For generating our used satellite image map, which is 2.3km^2, we set up row and col to be 30 and 17 respectively. If you need to generate your target satellite image area, please set up a new `Lat, Long` and refer to this ratio.
+ For generating our used satellite image map, which is 2.3km\^2, we set up row and col to be 30 and 17 respectively. If you need to generate your target satellite image area, please set up a new `Lat, Long` and refer to this ratio.
 
 ## Notes
 - Estimating GPS could be viewed as a distance measurement problem. Therefore, after collecting the satellite image maps, we need to calculate ground sample distance ([GSD](https://en.wikipedia.org/wiki/Ground_sample_distance)). Please refer to `MapAnalysis.ipynb` for details.
