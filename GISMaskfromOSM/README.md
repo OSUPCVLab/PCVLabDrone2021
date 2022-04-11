@@ -12,23 +12,17 @@ conda activate GISgenerator2021
 cd GISMaskfromOSM
 pip install opencv-python jupyter
 ```
-- The Chromedriver inside the repo is for **Windows**. The version: _ChromeDriver 100.0.4896.60_
-- Download the latest or suitable [version](https://chromedriver.chromium.org/downloads) for Chrome
 
-## Modify `main.py`
+## Modify `GISgenerator.ipynb`
 ```python
-if __name__=='__main__':
-    # Example: 5x5 -> 25 images
-    Lat, Long = 40.01835966827935, -83.03297664244631  # For 30*17 Larger Map, 2.3km^2
+# set up GIS map bounday, center point and distance
+# Please refer to MapAnalysis for target map width and height
+north, south = 40.00050846915017, 39.99829017146142
+east, west = -83.0139618955573, -83.01911201346185
+satmap_center = (39.99939933, -83.01653695)
+dist = 300
 
-    take_screenshot(
-        lat=Lat,  # Top left corner latitude
-        long=Long,
-        row=30,  # 5 rows
-        col=17,  # 5 columns
-        file_name="image",  # Map image: "image-map-{number}.png"
-        number=0
-    )
+create_square_from_osm(addr=satmap_center, bbox=(north, south, east, west), dist=dist)
 ```
 ### Parameters
 - `Lat, Long` latitude and longitude of the center of first screenshot image (1280x720)
