@@ -45,6 +45,8 @@ python feature_extractor.py --input=./assets/satmaps/ --output_dir=./featurebase
 # Running on the GPU
 python feature_extractor.py --input=./assets/satmaps/ --output_dir=./featurebase/ --map_row_col 3 3
 ```
+- Use `--map_row_col` to indicate generated satellite map patches rows by columns order
+
 
 ## UAV test flight
 Our test flight is over the blue box area as the left image shows, which covers abundant contexture including road, buildings, greens, river, urban area and recreational facilities. The test assets include demo images and video taken by UAV around urban environment. Feel free to download them and run our demo.
