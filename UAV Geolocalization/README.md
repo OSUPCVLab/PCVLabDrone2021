@@ -16,9 +16,16 @@ conda install pytorch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2 cpuonly -c pyt
 ```
 
 We provide the [download link](https://drive.google.com/drive/folders/1w7e0qmWQpv5HeU5w9utWeC43E45Xh1I6?usp=sharing) and saved folder to 
-```bash
-UAV Geolocalization
-|-- assets
+
+```
+photos
+├── summer
+│   └── june
+│       └── windsurf.jpg
+└── winter
+    └── january
+        ├── ski.png
+        └── snowboard.jpg
 ```
   - the test assets (~3.7GB).
   - featurebase (~5GB).
