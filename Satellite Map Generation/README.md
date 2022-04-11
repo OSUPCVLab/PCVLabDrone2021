@@ -44,7 +44,7 @@ if __name__=='__main__':
 ```shell
 python main.py
 ```
-Below is a generated satellite map example localied within OSU campus. `row` and `col` are set to be 30 and 17 respectively.
+Below is a generated satellite map example located within OSU campus. `row` and `col` are set to be 30 and 17 respectively.
 
 <img src="https://github.com/OSUPCVLab/UbihereDrone2021/blob/main/Satellite%20Map%20Generation/datasets/sat.png" width=90% height=90% />
 
