@@ -30,13 +30,17 @@ def take_screenshot(lat: float, long: float, row: int, col: int, number: int, fi
 
 if __name__=='__main__':
     # Example: 5x5 -> 25 images
-    Lat, Long = 40.01835966827935, -83.03297664244631  # For 30*17 Larger Map, 2.3km^2
+    Lat, Long = 40.000138757873195, -83.01825366047777  # 3x4, a smaller example map
+    rows, cols = 3, 3
+    
+    # Lat, Long = 40.01835966827935, -83.03297664244631  # 30*17 Larger Map, 2.3km^2
+    # rows, cols = 30, 17
 
     take_screenshot(
-        lat=Lat,  # Top left corner latitude
-        long=Long,
-        row=30,  # 5 rows
-        col=17,  # 5 columns
+        lat=Lat,  # First image center latitude
+        long=Long,  # First image center longitude
+        row=rows,
+        col=cols,
         file_name="image",  # Map image: "image-map-{number}.png"
         number=0
     )
