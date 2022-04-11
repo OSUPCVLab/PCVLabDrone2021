@@ -29,7 +29,7 @@ create_square_from_osm(addr=satmap_center, bbox=(north, south, east, west), dist
 - `satmap_center` Satellite map center GPS 
 - `dist` Assume satellite map width and height are W and H respectively. `dist` satisfies `dist>max(W/2, H/2)`
  
-We provided a target area located within OSU campus. Here is the example satellite map and GIS building mask visualization image. Buildings from the satellite map are semantically labeled as yellow.
+We provided a target area located within OSU campus. Here is the example satellite map and GIS building mask visualization image. Buildings from the satellite map are semantically labeled yellow.
 
 <img src="https://github.com/OSUPCVLab/UbihereDrone2021/blob/main/GISMaskfromOSM/sat_mask.png" width=90% height=90% />
 
