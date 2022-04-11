@@ -39,8 +39,11 @@ We use superglue as an advanced feature matching algorithm. However, due to its 
 
 ### Run Feature Extractor code
 ```shell
-# Satellite map feature extractor
-python feature_extractor.py --input=./assets/images/ --output=./output/images/ --range 900 900 --Init_height=140 --patience=20 --matching_vis --apply_GIS --force_cpu
+# Running on the CPU
+python feature_extractor.py --input=./assets/satmaps/ --output_dir=./featurebase/ --map_row_col 3 3 --force_cpu
+
+# Running on the GPU
+python feature_extractor.py --input=./assets/satmaps/ --output_dir=./featurebase/ --map_row_col 3 3
 ```
 
 ## UAV test flight
