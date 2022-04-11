@@ -35,4 +35,4 @@ We provided a target area located within OSU campus. Here is the example satelli
 
 
 ## Notes
-- Please remember copy your GIS mask into [featurebase](https://github.com/OSUPCVLab/UbihereDrone2021/tree/main/UAV%20Geolocalization/featurebase)
+- Please rename `sat_mask` to `GIS_mask`and copy it into [featurebase](https://github.com/OSUPCVLab/UbihereDrone2021/tree/main/UAV%20Geolocalization/featurebase)
