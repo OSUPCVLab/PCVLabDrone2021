@@ -5,7 +5,7 @@ In this project, we need distinguish keypoints over ground or higher constructio
 Please refer to [OSMnx](https://github.com/gboeing/osmnx) for more details. Here we provide installment commands satisfying our Windows environment. If you have not built Google satellite map generator environment, please refer to this [repo]() to set up the environment.
 ```shell
 # Anaconda activate the built environment
-conda activate GISgenerator2021
+conda activate mapgenerator2021
 
 # Install required libraries, pytorch needs to be installed independently
 cd Satellite Map Generation
