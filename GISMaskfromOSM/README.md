@@ -9,7 +9,7 @@ conda activate mapgenerator2021
 
 # Install required libraries, pytorch needs to be installed independently
 cd GISMaskfromOSM
-
+conda create -n mapgenerator2021 --strict-channel-priority osmnx jupyter
 
 # Install Jupyter Notebook (optional)
 pip install jupyter
