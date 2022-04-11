@@ -31,6 +31,8 @@ create_square_from_osm(addr=satmap_center, bbox=(north, south, east, west), dist
  
 We provided a target area located within OSU campus. Here is the example satellite map and GIS building mask visualization image. Buildings from the satellite map are semantically labeled as yellow.
 
+<img src="https://github.com/OSUPCVLab/UbihereDrone2021/blob/main/UAV%20Geolocalization/demo/map.png" width=45% height=45% />
+
 
 ## Notes
 
