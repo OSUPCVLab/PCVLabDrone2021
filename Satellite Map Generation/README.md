@@ -44,7 +44,9 @@ if __name__=='__main__':
 ```shell
 python main.py
 ```
-Below is a generated satellite map example localied within OSU campus. `row` and `col` are set to be 30 and 17 respectively
+Below is a generated satellite map example localied within OSU campus. `row` and `col` are set to be 30 and 17 respectively.
+
+<img src="https://github.com/OSUPCVLab/UbihereDrone2021/blob/main/GISMaskfromOSM/sat_mask.png" width=90% height=90% />
 
 ## Notes
 - Estimating GPS could be viewed as a distance measurement problem. Therefore, after collecting the satellite image maps, we need to calculate ground sample distance ([GSD](https://en.wikipedia.org/wiki/Ground_sample_distance)). Please refer to `MapAnalysis.ipynb` for details.
