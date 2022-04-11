@@ -18,18 +18,19 @@ conda install pytorch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2 cpuonly -c pyt
 We provide the [download link](https://drive.google.com/drive/folders/1w7e0qmWQpv5HeU5w9utWeC43E45Xh1I6?usp=sharing) and saved folder to 
 
 ```
-photos
-├── summer
-│   └── june
-│       └── windsurf.jpg
-└── winter
-    └── january
-        ├── ski.png
-        └── snowboard.jpg
+UAV Geolocalization
+├── assets (~3.7GB)
+    ├── images
+    └── videos
+└── featurebase (~5GB)
+    ├── GIS_mask.png
+    ├── QuadTree_idx.pkl
+    └── satmap_kpts.npz
+└── models
+    └── weights (each ~47MB)
+        ├── superglue_indoor.pth
+        └── superglue_indoor.pth
 ```
-  - the test assets (~3.7GB).
-  - featurebase (~5GB).
-  - 2 pretrained models of indoor and outdoor (each ~47MB).
 
 We use superglue as an advanced feature matching algorithm. However, due to its strict LICENSE requirements, we recommend downloading its pretrained models [here](https://github.com/magicleap/SuperGluePretrainedNetwork/tree/master/models/weights).
 
