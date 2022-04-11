@@ -1,5 +1,5 @@
 # Acknowledgement
-This part is based on to Deniz's [Repo](https://github.com/OSUPCVLab/UAVGeolocalization/tree/main/dataset-generation-gmaps-osm). We modified the code given initial GPS, utilizing screenshot taker to generate rowxcolumn satellite images from google maps.
+Our code is based on to Deniz's [Repo](https://github.com/OSUPCVLab/UAVGeolocalization/tree/main/dataset-generation-gmaps-osm). GIven initial GPS, we utilize screenshot taker to generate rowxcolumn satellite images from google maps without overlapping.
 
 ## Installation (Windows)
 ```shell
