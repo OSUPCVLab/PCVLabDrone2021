@@ -7,7 +7,7 @@ Our code is based on to Deniz's [Repo](https://github.com/OSUPCVLab/UAVGeolocali
 conda create -n mapgenerator2021 python=3.8
 conda activate mapgenerator2021
 
-# Install required libraries, pytorch needs to be installed independently
+# Install required libraries
 cd Satellite Map Generation
 pip install -r requirements.txt
 
