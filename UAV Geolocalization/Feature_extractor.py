@@ -129,4 +129,4 @@ if __name__ == '__main__':
                     'image0':kpts['image0']}
     
     # save kpts into npz file
-    np.savez(opt.output_dir+'/large_satmap_kpts.npz', **image0_info)
+    np.savez(opt.output_dir+'/satmap_kpts.npz', **image0_info)
