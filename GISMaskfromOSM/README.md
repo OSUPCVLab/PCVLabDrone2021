@@ -8,8 +8,8 @@ Please refer to [OSMnx](https://github.com/gboeing/osmnx) for more details. Here
 conda activate mapgenerator2021
 
 # Install required libraries, pytorch needs to be installed independently
-cd Satellite Map Generation
-pip install -r requirements.txt
+cd GISMaskfromOSM
+
 
 # Install Jupyter Notebook (optional)
 pip install jupyter
