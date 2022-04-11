@@ -1,12 +1,12 @@
-
-# Acknowledgement
-Our code is based on to Deniz's [Repo](https://github.com/OSUPCVLab/UAVGeolocalization/tree/main/dataset-generation-gmaps-osm). GIven initial GPS, we utilize screenshot taker to generate rowxcolumn satellite images from google maps without overlapping.
+## GIS data
+In this project, we need distinguish keypoints over ground or higher construction such as buildings for more accurate flight height estimation and geolocalization. However, google maps does not provide such information but OpenStreeMap has such geospatial entities. We therefore extract building GIS mask from OSM with its assocaited python library [OSMnx](https://osmnx.readthedocs.io/en/stable/osmnx.html#module-osmnx.geometries).
 
 ## Installation (Windows)
+Please refer to [OSMnx](https://github.com/gboeing/osmnx) for more details. Here we provide installment commands satisfying our Windows environment.
 ```shell
 # Anaconda create a new environment
-conda create -n mapgenerator2021 python=3.8
-conda activate mapgenerator2021
+conda create -n GISgenerator2021 python=3.8
+conda activate GISgenerator2021
 
 # Install required libraries, pytorch needs to be installed independently
 cd Satellite Map Generation
