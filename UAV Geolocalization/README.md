@@ -47,7 +47,7 @@ python feature_extractor.py --input=./assets/satmaps/ --output_dir=./featurebase
 # Running on the GPU
 python feature_extractor.py --input=./assets/satmaps/ --output_dir=./featurebase/ --map_row_col 3 3
 ```
-- Use `--map_row_col` to indicate generated satellite map patches rows by columns order
+- Use `--map_row_col` to indicate generated satellite map patches with rows by columns sequence
 
 
 ## UAV test flight
