@@ -25,13 +25,12 @@ dist = 300
 create_square_from_osm(addr=satmap_center, bbox=(north, south, east, west), dist=dist)
 ```
 ### Parameters
-- `north, south, east, west` OSM entities within a N, S, E, W bounding box, please refer to [MapAnalysis.ipynb]() for values.
+- `north, south, east, west` OSM entities within a N, S, E, W bounding box, please refer to [MapAnalysis.ipynb](https://github.com/OSUPCVLab/UbihereDrone2021/blob/main/Satellite%20Map%20Generation/MapAnalysis.ipynb) for values.
 - `satmap_center` Satellite map center GPS 
 - `dist` Assume satellite map width and height are W and H respectively. `dist1` should be larger than W/2 and H/2
  
- For generating our used satellite image map, which is 2.3km\^2, we set up row and col to be 30 and 17 respectively. If you need to generate your target satellite image area, please set up a new `Lat, Long` and refer to this ratio.
+We provided a target area located within OSU campus. Here is the example satellite map and GIS building mask visualization image. Buildings from the satellite map are semantically labeled as yellow.
+
 
 ## Notes
-- Estimating GPS could be viewed as a distance measurement problem. Therefore, after collecting the satellite image maps, we need to calculate ground sample distance ([GSD](https://en.wikipedia.org/wiki/Ground_sample_distance)). Please refer to `MapAnalysis.ipynb` for details.
-- Target rea top-left GPS coordinates are referred to as `--satmap_init_gps` in the [test.py](https://github.com/OSUPCVLab/UbihereDrone2021/blob/main/UAV%20Geolocalization/test.py).
-- You can also replace google satellite image maps with other sources but having similart texture. Remember to calculate GSD and acquire your collected area north, south, east and west GPS coordinates.
+
