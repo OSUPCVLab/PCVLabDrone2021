@@ -1,6 +1,5 @@
 # Acknowledgement
-Thanks to Deniz's [Repo](https://github.com/OSUPCVLab/UAVGeolocalization/tree/main/dataset-generation-gmaps-osm), we are able to generate target area google satellite images. This map image shows our selected area for UAV geolocalization without GPS support.
-
+This part is based on to Deniz's [Repo](https://github.com/OSUPCVLab/UAVGeolocalization/tree/main/dataset-generation-gmaps-osm). We modified the code given initial GPS, utilizing screenshot taker to generate rowxcolumn satellite images from google maps.
 
 ## Installation (Windows)
 ```shell
