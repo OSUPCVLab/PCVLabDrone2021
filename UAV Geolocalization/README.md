@@ -23,7 +23,13 @@ We provide the [download link](https://drive.google.com/drive/folders/1w7e0qmWQp
 We use superglue as an advanced feature matching algorithm. However, due to its strict LICENSE requirements, we recommend downloading its pretrained models [here](https://github.com/magicleap/SuperGluePretrainedNetwork/tree/master/models/weights).
 
 ## Feature Extraction offline
-[Satellite map generator]() could generate target area satellite map combined with row by col patches with the size of 1280x720. 
+[Satellite map generator](https://github.com/OSUPCVLab/UbihereDrone2021/tree/main/Satellite%20Map%20Generation) could generate target area satellite map combined with row by col patches with the size of 1280x720. First of all, we need to extract features from satellite map patch by patch and concatenate them in the same order of row by column. Here is the generated target area example feature map. Red point on the map represents a extracted feature containing postion and descriptor saved as `satmap_kpts.npz` into `featurebase` folder.
+
+### Run Feature Extractor code
+```shell
+# Satellite map feature extractor
+python feature_extractor.py --input=./assets/images/ --output=./output/images/ --range 900 900 --Init_height=140 --patience=20 --matching_vis --apply_GIS --force_cpu
+```
 
 ## UAV test flight
 Our test flight is over the blue box area as the left image shows, which covers abundant contexture including road, buildings, greens, river, urban area and recreational facilities. The test assets include demo images and video taken by UAV around urban environment. Feel free to download them and run our demo.
