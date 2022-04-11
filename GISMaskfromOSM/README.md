@@ -5,12 +5,13 @@ In this project, we need distinguish keypoints over ground or higher constructio
 Please refer to [OSMnx](https://github.com/gboeing/osmnx) for more details. Here we provide installment commands satisfying our Windows environment. If you have not built Google satellite map generator environment, please refer to this [repo]() to set up the environment.
 ```shell
 # Anaconda activate the built environment
-conda activate mapgenerator2021
+conda create -n GISgenerator2021 --strict-channel-priority osmnx
+conda activate GISgenerator2021
 
 # Install required libraries, pytorch needs to be installed independently
 cd GISMaskfromOSM
 pip install opencv-python jupyter
-conda create -n mapgenerator2021 --strict-channel-priority osmnx
+conda create -n GISgenerator2021 --strict-channel-priority osmnx
 ```
 - The Chromedriver inside the repo is for **Windows**. The version: _ChromeDriver 100.0.4896.60_
 - Download the latest or suitable [version](https://chromedriver.chromium.org/downloads) for Chrome
