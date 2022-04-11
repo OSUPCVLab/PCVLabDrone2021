@@ -25,9 +25,9 @@ dist = 300
 create_square_from_osm(addr=satmap_center, bbox=(north, south, east, west), dist=dist)
 ```
 ### Parameters
-- `Lat, Long` latitude and longitude of the center of first screenshot image (1280x720)
-- `row` Row count along the way to south  
-- `col` Column count along the way to east
+- `north, south, east, west` OSM entities within a N, S, E, W bounding box, please refer to [MapAnalysis.ipynb]() for values.
+- `satmap_center` Satellite map center GPS 
+- `dist` Assume satellite map width and height are W and H respectively. `dist1` should be larger than W/2 and H/2
  
  For generating our used satellite image map, which is 2.3km\^2, we set up row and col to be 30 and 17 respectively. If you need to generate your target satellite image area, please set up a new `Lat, Long` and refer to this ratio.
 
