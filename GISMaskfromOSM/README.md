@@ -2,7 +2,7 @@
 In this project, we need distinguish keypoints over ground or higher construction such as buildings for more accurate flight height estimation and geolocalization. However, google maps does not provide such information but OpenStreeMap has such geospatial entities. We therefore extract building GIS mask from OSM with its assocaited python library [OSMnx](https://osmnx.readthedocs.io/en/stable/osmnx.html#module-osmnx.geometries).
 
 ## Installation (Windows)
-Please refer to [OSMnx](https://github.com/gboeing/osmnx) for more details. Here we provide installment commands satisfying our Windows environment. If you have not built Google satellite map generator environment, please refer to this [repo]() to set up the environment.
+Please refer to [OSMnx](https://github.com/gboeing/osmnx) for more details. Here we provide installment commands satisfying our Windows environment.
 ```shell
 # Anaconda create a new environment as OSMnx installment required
 conda create -n GISgenerator2021 --strict-channel-priority osmnx
