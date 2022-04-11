@@ -32,6 +32,12 @@ if __name__=='__main__':
         number=0
     )
 ```
+
+### Run map generator
+```shell
+python main.py
+```
+
 ### Parameters
 - `Lat, Long` latitude and longitude of the center of first screenshot image (1280x720)
 - `row` Row count along the way to south  
