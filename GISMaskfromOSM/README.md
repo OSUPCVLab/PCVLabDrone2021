@@ -35,4 +35,4 @@ We provided a target area located within OSU campus. Here is the example satelli
 
 
 ## Notes
-
+- Please remember copy your GIS mask into [featurebase]()
