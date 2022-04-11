@@ -39,7 +39,7 @@ We use superglue as an advanced feature matching algorithm. However, due to its 
 
 <img src="https://github.com/OSUPCVLab/UbihereDrone2021/blob/main/UAV%20Geolocalization/demo/map.png" width=45% height=45% />
 
-### Run Feature Extractor code
+### Run feature extractor offline
 ```shell
 # Running on the CPU
 python feature_extractor.py --input=./assets/satmaps/ --output_dir=./featurebase/ --map_row_col 3 3 --force_cpu
