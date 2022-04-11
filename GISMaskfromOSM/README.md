@@ -27,7 +27,7 @@ create_square_from_osm(addr=satmap_center, bbox=(north, south, east, west), dist
 ### Parameters
 - `north, south, east, west` OSM entities within a N, S, E, W bounding box, please refer to [MapAnalysis.ipynb](https://github.com/OSUPCVLab/UbihereDrone2021/blob/main/Satellite%20Map%20Generation/MapAnalysis.ipynb) for values.
 - `satmap_center` Satellite map center GPS 
-- `dist` Assume satellite map width and height are W and H respectively. `dist` satisfies dist>max(W/2, H/2)
+- `dist` Assume satellite map width and height are W and H respectively. `dist` satisfies `dist>max(W/2, H/2)`
  
 We provided a target area located within OSU campus. Here is the example satellite map and GIS building mask visualization image. Buildings from the satellite map are semantically labeled as yellow.
 
