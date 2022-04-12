@@ -13,7 +13,7 @@
 
 :triangular_flag_on_post: **Updates**
 - Check out [QuadTree](https://medium.com/@waleoyediran/spatial-indexing-with-quadtrees-b998ae49336), a spatial indexing algorithm that improves geo-queries in a 2D-space.
-- Generate GIS building mask in correspondence with target area satellite image. GIS building mask comes from OSM could help improve geolocalization accuracy and UAV flight height estimation.
+- Generate GIS building mask in correspondence with target area satellite image. GIS building mask comes from [OSMnx](https://osmnx.readthedocs.io/en/stable/) could help improve geolocalization accuracy and UAV flight height estimation.
 
 ## Prerequisites
 This is a vision-based project. We use images taken by UAV embedded camera as the only data source for geolocalization. Our completing method is to match features from UAV taken images with other data sources with similar contexture information such as [GoogleSatelliteMap](https://www.google.com/maps/@40.0014409,-83.0193795,1131m/data=!3m1!1e3) and [OpenStreetMap](https://www.openstreetmap.org/#map=16/40.0001/-83.0215). Therefore, we provide two sub-repos with respect to satellite map generation and corresponding GIS mask generation. Both repos require creating new conda environment due to specific libraries version dependencies.
