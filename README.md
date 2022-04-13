@@ -1,6 +1,6 @@
 # UbihereDrone2021
 ## Project Description
-### We launched this project to achieve UAV GeoLocalization in GPS-denied environment (GPS weak, unstable or unavailable). We used [DJI Mavic air 2](https://www.dji.com/mavic-air-2?site=brandsite&from=nav) for data collection and test flight. Other drone brands may lead to incorrect results for unknown reason.
+We launched this project to achieve UAV GeoLocalization in GPS-denied environment (GPS weak, unstable or unavailable). We used [DJI Mavic air 2](https://www.dji.com/mavic-air-2?site=brandsite&from=nav) for data collection and test flight. Other drone brands may lead to incorrect results for unknown reason.
 
 ![demo_vid](https://github.com/OSUPCVLab/UbihereDrone2021/blob/main/UAV%20Geolocalization/demo/Webp.net-gifmaker.gif)
 
