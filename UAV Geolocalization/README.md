@@ -42,12 +42,13 @@ We use superglue as an advanced feature matching algorithm. However, due to its 
 ### Run feature extractor offline
 ```shell
 # Running on the CPU
-python feature_extractor.py --input=./assets/satmaps/ --output_dir=./featurebase/ --map_row_col 3 3 --force_cpu
+python feature_extractor.py --input=./assets/satmaps/ --output_dir=./featurebase/ --resize=-1 --map_row_col 3 3 --force_cpu
 
 # Running on the GPU
-python feature_extractor.py --input=./assets/satmaps/ --output_dir=./featurebase/ --map_row_col 3 3
+python feature_extractor.py --input=./assets/satmaps/ --output_dir=./featurebase/ --resize=-1 --map_row_col 3 3
 ```
 - Use `--map_row_col` to indicate generated satellite map patches with rows by columns sequence
+- Use `--resize` to resize the input map patches. If -1, do not resize.
 
 
 ## UAV test flight
