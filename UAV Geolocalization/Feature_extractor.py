@@ -87,11 +87,6 @@ if __name__ == '__main__':
     }
     matching = Matching(config).eval().to(device)
     keys = ['keypoints', 'scores', 'descriptors']
-    
-    kpts = {'keypoints0':np.empty([0,2]),
-        'scores0':np.empty([0]),
-        'descriptors0':np.empty([256,0]),
-        'image0':np.empty([opt.resize[1]*opt.map_row_col[0], opt.resize[0]*opt.map_row_col[1]])}
 
     if opt.output_dir is not None:
         print('==> Will write outputs to {}'.format(opt.output_dir))
@@ -104,6 +99,16 @@ if __name__ == '__main__':
         for j in range(opt.map_row_col[1]):
             dir = 'sat_{}_{}.png'.format(i,j)
             img_dirs.append(opt.input+dir)
+
+    if len(opt.resize) == 1:
+        img = load_encoder_img(img_dirs[0], opt.resize)
+        opt.resize = [img.shape[1], img.shape[0]]
+
+    # Initilize feature keypoints
+    kpts = {'keypoints0':np.empty([0,2]),
+            'scores0':np.empty([0]),
+            'descriptors0':np.empty([256,0]),
+            'image0':np.empty([opt.resize[1]*opt.map_row_col[0], opt.resize[0]*opt.map_row_col[1]])}
 
     for i, imdir in enumerate(img_dirs):
         frame = load_encoder_img(imdir, opt.resize)
