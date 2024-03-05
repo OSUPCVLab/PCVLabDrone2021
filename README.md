@@ -26,3 +26,22 @@ See [UAV Geolocalization](https://github.com/OSUPCVLab/UbihereDrone2021/tree/mai
 ## Additional Notes
 - Discussions or questions are welcomed. Please contact wei.909@osu.edu
 - Our test flight is done around Ohio State University main campus. If you want test around other place, please recollect satellite image, GIS mask and rebuild featurebase.
+
+## Cite
+If you use our code or collected data in your project, please cite the paper:
+
+```BibTeX
+@Article{drones7090569,
+AUTHOR = {Wei, Jianli and Yilmaz, Alper},
+TITLE = {A Visual Odometry Pipeline for Real-Time UAS Geopositioning},
+JOURNAL = {Drones},
+VOLUME = {7},
+YEAR = {2023},
+NUMBER = {9},
+ARTICLE-NUMBER = {569},
+URL = {https://www.mdpi.com/2504-446X/7/9/569},
+ISSN = {2504-446X},
+ABSTRACT = {The state-of-the-art geopositioning is the Global Navigation Satellite System (GNSS), which operates based on the satellite constellation providing positioning, navigation, and timing services. While the Global Positioning System (GPS) is widely used to position an Unmanned Aerial System (UAS), it is not always available and can be jammed, introducing operational liabilities. When the GPS signal is degraded or denied, the UAS navigation solution cannot rely on incorrect positions GPS provides, resulting in potential loss of control. This paper presents a real-time pipeline for geopositioning functionality using a down-facing monocular camera. The proposed approach is deployable using only a few initialization parameters, the most important of which is the map of the area covered by the UAS flight plan. Our pipeline consists of an offline geospatial quad-tree generation for fast information retrieval, a choice from a selection of landmark detection and matching schemes, and an attitude control mechanism that improves reference to acquired image matching. To evaluate our method, we collected several image sequences using various flight patterns with seasonal changes. The experiments demonstrate high accuracy and robustness to seasonal changes.},
+DOI = {10.3390/drones7090569}
+}
+```
